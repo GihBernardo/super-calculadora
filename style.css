@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  max-width: 2000px;
+  margin: auto;
+  padding: 50px;
+}
+
+header{
+  background-color: gray;
+  border: 1px ;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  font-size: 30px;
+}
+
+#inputs{
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+#input-number-A{
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 20px;
+  padding-left: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#input-number-B{
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 20px;
+  padding-left: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+label{
+  color: white;
+}
+
+button{
+  border-radius: 5px;
+  border: none;
+  height: 40px;
+  width: 150px;
+  background-color: rgb(70, 68, 68);
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+}
+
+#container{
+  background-color: rgb(119, 119, 119);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 20px;
+}
+
+#operations{
+  padding: 10px;
+}
+
+.operation-value{
+  border: solid white 2px;
+  display: inline-block;
+  width: 550px;
+  height: 100px;
+  margin: 10px;
+  text-align: center;
+}
+
+p{
+  color: white;
+  height: 30px;
+  padding-top: 5px;
+  background-color: rgb(143, 143, 143);
+  font-size: 25px;
+}
+
+strong{
+  font-size: 40px;
+  color: white;
+}
